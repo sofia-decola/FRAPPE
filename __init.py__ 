@@ -1,0 +1,15 @@
+"""
+FRAPPE: Framework for Rhythmic Analysis of Phasic Proteomics Experiments
+ 
+A computational framework for analyzing high-dimensional proteomics time-series
+data, with an emphasis on circadian rhythmicity and cross-condition comparison.
+"""
+ 
+from .tlcc import *
+from .rhythmic_period_analysis import *
+from .coexpr_adj_matrix import *
+from .clustering_models import *
+from .stringdb import *
+ 
+__version__ = "0.1.0"
+ 
